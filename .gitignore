@@ -1,0 +1,10 @@
+
+# npm package cache
+node_modules
+
+# Ignore Mac .DS_Store files
+.DS_Store
+
+# notes and backups
+archive
+

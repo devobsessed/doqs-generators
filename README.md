@@ -45,6 +45,14 @@ Assuming access to an AWS account, we should be able to accomplish the following
     # NOTE: the username or company name should be "devobsessed"
     yo generator
 
+    # remove the .git folder from the new generator
+    # this is auto generate by yeoman, we delete it because we are managing this repo as a mono repo and not with git subrepos
+    rm -rf ./generator-doqs-my-new-generator/.git
+
+    # remove the LICENSE file
+    rm ./generator-doqs-my-new-generator/LICENSE
+
+
 There should be a new dir and the root of this repo, your new template files
 will be placed in `./generator-<mynewgenerator>/generators/app/templates` dir.
 
@@ -59,6 +67,9 @@ Below are the steps to link all these packages and an example of how to use them
 
     # make the individual generators avaible to npm locally
     find . -name 'generator-doqs-*' -depth 1 -type d | xargs npm link
+
+    # install deps
+    npm install
 
     # Create a new dir in your projects folder to test the generator for exmple:
     cd ~/projects
