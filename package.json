@@ -1,1 +1,5 @@
-{}
+{
+  "dependencies": {
+    "generator-doqs-aws-infra-tf-bootstrap": "file:generator-doqs-aws-infra-tf-bootstrap"
+  }
+}
