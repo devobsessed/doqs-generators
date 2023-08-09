@@ -24,6 +24,17 @@ Assuming access to an AWS account, we should be able to accomplish the following
     - billing alerts
     - 
 
+## List of Supported Generators and current status
+
+| Generator                                 | Status        | Description                                           |
+|-------------------------------------------|---------------|-------------------------------------------------------|
+| generator-doqs-aws-infra-tf-bootstrap     | In Progress   | Infra needed to manage Terraform state files in S3    |
+| generator-doqs-aws-infra-core             | Planned       | Base AWS infra including VPC, ECR, etc (no apps)      |
+| generator-doqs-aws-spring-boot-app-runner | Planned       | Spring boot app deployed to App Runner with a DB      |
+| generator-doqs-aws-lambda-python          | Planned       | Python lambda                                         |
+
+
+
 ## Create a new Generator
 
     brew install node
