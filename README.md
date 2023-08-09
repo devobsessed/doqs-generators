@@ -59,10 +59,10 @@ will be placed in `./generator-<mynewgenerator>/generators/app/templates` dir.
 See the [Yeoman docs](https://yeoman.io/learning/) for more info on how to build generators.
 
 
-# General steps fpr using the generators in this repo
+# General steps for using the generators in this repo
 
 This repo contains multiple NPM packages.  None of them have been published to a repository.
-To use then, you will have to `npm link` them to make them globally avaible to the `yo` tool.
+To use then, you will have to `npm link` them to make them globally available to the `yo` tool.
 Below are the steps to link all these packages and an example of how to use them.
 
     # make the individual generators avaible to npm locally
@@ -71,11 +71,11 @@ Below are the steps to link all these packages and an example of how to use them
     # install deps
     npm install
 
-    # Create a new dir in your projects folder to test the generator for exmple:
+    # Create a new dir where ever you keepk your code (e.g. your ~/projects folder) to test the generator for exmple:
     cd ~/projects
-    mkdir somecompany-aws-infra-bootstrap
-    cd somecompany-aws-infra-bootstrap
-    yo aws-infra-bootstrap
+    mkdir somecompany-aws-infra-tf-bootstrap
+    cd somecompany-aws-infra-tf-bootstrap
+    yo aws-infra-tf-bootstrap
 
     # to see a list og all the generators
     yo --help
