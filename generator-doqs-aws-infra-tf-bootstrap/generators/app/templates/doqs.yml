@@ -1,0 +1,9 @@
+doqsGenerators:
+  description: This project was generated with DOQS (DevObsessed QuickStart).
+  gitUrl:
+  gitSha: ${TODO}
+  generationDate: ${TODO}
+vars:
+  company:
+  env: 
+  region:
