@@ -1,6 +1,6 @@
 doqsGenerators:
   description: This project was generated with DOQS (DevObsessed QuickStart).
-  gitUrl:
+  gitUrl: https://github.com/devobsessed/doqs-generators
   gitSha: ${TODO}
   generationDate: ${TODO}
 vars:
