@@ -16,6 +16,19 @@ in place it never needs to be updated.  This step doesnt
 really need to be run via CI, it's usually acceptable to run 
 this once from a workstation.
 
+## Pre-reqs
+
+This repo requires a few pre-requisites before you can use this repo.
+We assume you are using MacOS, but Windows and Linux should both work
+similarly, you'll just need to update the install commands to suit the 
+package manager of your chosen OS.
+
+    brew install git
+    brew install tfenv
+    brew install go-task
+    tfenv install <%= terraformVersion %>
+    tfenv use <%= terraformVersion %>
+
 
 ## How to bootstrap a new account
 
